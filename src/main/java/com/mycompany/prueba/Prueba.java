@@ -31,5 +31,7 @@ public class Prueba {
         System.out.println("\n-------------------------------------\n");
         alumno2.setId(25);
         System.out.println("el id del alumno 2 es: " + alumno2.getId());
+        System.out.println("el nombre del alumno 2 es: " + alumno2.getNombre());
+        System.out.println("el apellido del alumno 2 es: " + alumno2.getApellido());
     }
 }
