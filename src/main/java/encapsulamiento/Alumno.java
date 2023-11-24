@@ -2,22 +2,34 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package herencia;
+package encapsulamiento;
 
 /**
  *
  * @author saien
  */
-public class Empleado extends Persona {
-    String nombre;
-    String apellido;
-    int num_Docuemnto ;
+public class Alumno {
+     private int id;
+    private String nombre;
+    private String apellido;
 
-    public Empleado() {
+    public Alumno() {
     }
 
-    public Empleado(String dni, String nombre, String apellido, String domicilio, String telefono) {
-        super(dni, nombre, apellido, domicilio, telefono);
+    
+    
+    public Alumno(int id, String nombre, String apellido) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -34,14 +46,6 @@ public class Empleado extends Persona {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
-    }
-
-    public int getNum_Docuemnto() {
-        return num_Docuemnto;
-    }
-
-    public void setNum_Docuemnto(int num_Docuemnto) {
-        this.num_Docuemnto = num_Docuemnto;
     }
     
     
