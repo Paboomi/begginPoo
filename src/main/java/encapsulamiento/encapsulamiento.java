@@ -20,8 +20,6 @@ public class encapsulamiento {
         System.out.println("Apellido: " + alu2.getApellido());
         
     }
-    
-    
-    
+     
     
 }
